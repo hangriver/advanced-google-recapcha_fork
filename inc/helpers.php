@@ -92,9 +92,9 @@ function advanced_google_recaptcha_get_captcha_api_url( $type ) {
 	$site_key = advanced_google_recaptcha_option( 'site_key' );
 
 	if ( 'v2' === $type ) {
-		$output = 'https://www.google.com/recaptcha/api.js?hl=' . esc_attr( get_locale() ) . '&onload=agrLoad&render=explicit';
+		$output = 'https://www.recaptcha.net/recaptcha/api.js?hl=' . esc_attr( get_locale() ) . '&onload=agrLoad&render=explicit';
 	} elseif ( 'v3' === $type ) {
-		$output = 'https://www.google.com/recaptcha/api.js?onload=agrV3&render=' . esc_attr( $site_key );
+		$output = 'https://www.recaptcha.net/recaptcha/api.js?onload=agrV3&render=' . esc_attr( $site_key );
 	}
 
 	return $output;
