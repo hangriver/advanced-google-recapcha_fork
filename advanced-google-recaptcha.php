@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: Advanced Google reCAPTCHA
- * Plugin URI: https://wpconcern.com/plugins/advanced-google-recaptcha/
- * Description: Advanced Google reCAPTCHA will safeguard your WordPress site from spam comments and brute force attacks. With this plugin, you can easily add Google reCAPTCHA to WordPress comment form, login form and other forms.
+ * Plugin URI: https://github.com/hangriver/advanced-google-recapcha_fork
+ * Description: A fork of Advanced Google reCAPTCHA to bypass China's GFW. It will safeguard your WordPress site from spam comments and brute force attacks. With this plugin, you can easily add Google reCAPTCHA to WordPress comment form, login form and other forms.
  * Version: 1.0.11
  * Author: WP Concern
  * Author URI: https://wpconcern.com/
@@ -10,7 +10,7 @@
  * License: GPL3
  * Domain Path: /languages
  *
- * @package Advanced_Google_Recaptcha
+ * @package Advanced_Google_Recaptcha_CN
  */
 
 // If this file is called directly, abort.
